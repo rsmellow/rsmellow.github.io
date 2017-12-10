@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instructor Bio: Randy Mellow</title>
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700|Open+Sans:400,700" rel="stylesheet">
+    
+    <link href="https://meyerweb.com/eric/tools/css/reset/reset.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/site.css" type="text/css">
+</head>
+<body>
+  <div id="message-box" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+           <div class="modal-content">
+               <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                   <h4 class="modal-title">Message Sent</h4>
+               </div>
+               <div class="modal-body">
+                   <div id="messagebody"></div>
+               </div>
+           </div><!-- /.modal-content -->
+       </div><!-- /.modal-dialog -->
+  </div>
+  <header>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" 
+                  data-toggle="collapse" 
+                  data-target="#top-nav">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand" href="index.html">Randy Mellow</a>
+        </div>
+        <div class="collapse navbar-collapse" id="top-nav">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="http://rsmellow.com">Personal Blog</a></li>
+            <li><a href="http://tech.rsmellow.net">Tech Blog</a></li> 
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-push-8  blue ">
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h3 class="panel-title">Professional Appearance</h3>
+                </div>
+                 <div class="panel-body">
+                  <ul id="social-list">
+                    <li><a href="https://github.com/rsmellow" title="Git Hub"><img src="image/GitHub-Mark-120px-plus.png" alt="Git Hub"></a></li>
+                    <li><a href="https://stackoverflow.com/users/1826918/r-scott-mellow?tab=profile" title="Stack Overflow"><img src="image/so-icon.png" alt="Stack Overflow"></a></li>
+                    <li><a href="https://www.linkedin.com/in/rsmellow/" title="LinkedIn"><img src="image/In-2C-128px-R.png" alt="LinkedIn"></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-8 col-md-pull-4 red ">
+              <h1>Get in Touch</h1>
+                <form>
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="email@address">
+                    <label for="message">Message</label>
+                    <textarea id="message"></textarea>
+                  </div>
+                    <button type="submit" class="btn btn-primary" id="send-message">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>    
+  </main>
+  <footer class="footer">
+    <span>&copy; RSMellow.com</span>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+          crossorigin="anonymous"></script>
+  <script src="script/site.js"></script>
+</body>
+</html>
